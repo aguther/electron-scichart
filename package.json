@@ -2,7 +2,7 @@
   "name": "electron-scichart",
   "productName": "electron-scichart",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Electron application with SciChart",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -40,6 +40,8 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "copy-webpack-plugin": "^12.0.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "scichart": "^3.3.560"
   }
 }
